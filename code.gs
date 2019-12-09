@@ -22,7 +22,7 @@ function onSubmit(entry) {
     },
     {
     "type": "mrkdwn",
-      "text" : "*field 3*\n" + responses[1].getResponse(), // String for TextItem question
+      "text" : "*field 3*\n" + responses[1].getResponse(), // For CheckboxItem questions add .join(), this returns a String[] array containing the responder's choices. 
     },
     {
     "type": "mrkdwn",
